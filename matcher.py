@@ -14,7 +14,7 @@ load_dotenv()
 
 # === Load model and Groq client ===
 model = SentenceTransformer("all-MiniLM-L6-v2")
-groq_client = Groq(api_key=secrets["GROQ_API_KEY"])
+groq_client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # === Job Descriptions Function ===
 def get_job_descriptions():
