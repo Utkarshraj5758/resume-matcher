@@ -7,6 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from groq import Groq
 from dotenv import load_dotenv
 from streamlit import secrets
+import streamlit as st
 import numpy as np
 
 # Load environment variables
